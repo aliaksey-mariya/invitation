@@ -274,6 +274,9 @@ footer {
         content: "";
         width: 110px;
     }
+    .ring {
+	  font-size:24px;  
+    }
 }
 
 @media screen and (max-width: 435px) {
