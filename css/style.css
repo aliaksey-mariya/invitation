@@ -69,7 +69,7 @@ span {
 .friends {
     font-size: 1.5rem;
     padding: 80px 0;
-    background-color: #FDF5E6;
+    background-color: #FFFAFA;
 }
 
 .friends p {
@@ -84,7 +84,7 @@ table {
 }
 
 .table {
-    background-color: #FDF5E6;
+    background-color: #FFFAFA;
 }
 
 caption {
@@ -118,7 +118,7 @@ tr {
 .place {
     padding: 30px;
     font-size: 2rem;
-    background-color: #FDF5E6;
+    background-color: #FFFAFA;
 }
 
 .place a {
@@ -243,7 +243,7 @@ footer {
         height: 60px;
     }
     td i {
-        color: #FDF5E6;
+        color: #FFFAFA;
         font-size: 1rem;
     }
     .place {
@@ -355,7 +355,7 @@ footer {
   font-size: 54px;
   display: flex;
   justify-content: center;
-    background-color:#FDF5E6;
+    background-color: #FFFAFA;
   
 }
 .timer__item {
@@ -385,7 +385,7 @@ footer {
   right: -15px; 
 }
 .timer {
-  background-color: #FDF5E6;
+  background-color: #FFFAFA;
 }
 .left {
   font-size: 25px;
