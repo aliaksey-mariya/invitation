@@ -380,10 +380,8 @@ footer {
   font-size: 25px;
   display: inline-block;
   overflow: hidden;
-  max-width: 135px;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 .right {
   display: inline-block;
