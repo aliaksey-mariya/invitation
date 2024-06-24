@@ -156,7 +156,7 @@ footer p {
 }
 
 footer {
-    background-color: #F4D257;
+    background-color: #DDA0DD;
 }
 
 .down {
@@ -164,7 +164,7 @@ footer {
     font-size: 1.75rem;
     bottom: 30px;
     right: 35px;
-    color: #F4D257;
+    color: #800080;
 }
 
 @media screen and (max-width: 865px) {
