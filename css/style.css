@@ -377,7 +377,7 @@ footer {
 		background-color: #F3F7EA;
 }
 .left {
-  font-size: 48px;
+  font-size: 30px;
   display: inline-block;
   overflow: hidden;
   max-width: 135px;
@@ -386,7 +386,6 @@ footer {
   text-overflow: ellipsis;
 }
 .right {
-  border: 1px solid;
   display: inline-block;
   white-space: nowrap;
 }
