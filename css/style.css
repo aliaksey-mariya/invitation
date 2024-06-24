@@ -376,13 +376,32 @@ footer {
 .timer {
 		background-color: #F3F7EA;
 }
-.ring {
-  font-size:48px;
-	display: inline;
+.left {
+  font-size: 48px;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 135px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.right {
+  border: 1px solid;
+  display: inline-block;
+  white-space: nowrap;
 }
 @media only screen and (max-device-width: 480px) {
-.ring {
-	font-size: 8px;
-	display: inline;
+.left {
+  font-size: 8px;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 135px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.right {
+  display: inline-block;
+  white-space: nowrap;
 }
 }
