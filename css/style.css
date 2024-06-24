@@ -102,11 +102,11 @@ td {
     border: 1px solid #e8e8e8;
 }
 
-tr:last-child td:nth-last-child(-n+6) {
+tr:last-child td:nth-last-child(-n+3) {
     color: #c1c1c1;
 }
 
-tr:nth-child(2) td:nth-child(-n+5) {
+tr:nth-child(2) td:nth-child(-n+1) {
     color: #c1c1c1;
 }
 
