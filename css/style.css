@@ -382,5 +382,6 @@ footer {
 @media only screen and (max-device-width: 480px) {
 .ring {
 	font-size: 8px;
+	display: inline;
 }
 }
