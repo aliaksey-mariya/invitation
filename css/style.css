@@ -213,9 +213,6 @@ footer {
         padding: 20px 0;
         font-size: 1.5rem;
     }
-	 .ring {
-	  font-size:24px;  
-    }
 }
 
 @media screen and (max-width: 690px) {
@@ -277,9 +274,6 @@ footer {
     .arrow-1::after {
         content: "";
         width: 110px;
-    }
-    .ring {
-	  font-size:24px;  
     }
 }
 
@@ -384,4 +378,9 @@ footer {
 }
 .ring {
   font-size:48px;
+}
+media only screen and (max-device-width: 480px) {
+.ring {
+  font-size:48px;
+}
 }
