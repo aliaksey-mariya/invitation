@@ -69,7 +69,7 @@ span {
 .friends {
     font-size: 1.5rem;
     padding: 80px 0;
-    background-color: #FFFAFA;
+    background-color: #F5FFFA;
 }
 
 .friends p {
@@ -84,7 +84,7 @@ table {
 }
 
 .table {
-    background-color: #FFFAFA;
+    background-color: #F5FFFA;
 }
 
 caption {
@@ -118,7 +118,7 @@ tr {
 .place {
     padding: 30px;
     font-size: 2rem;
-    background-color: #FFFAFA;
+    background-color: #F5FFFA;
 }
 
 .place a {
@@ -143,7 +143,7 @@ img {
 }
 
 td i {
-    color: #FE3447;
+    color: #F5FFFA;
     font-size: 1.5rem;
 }
 
@@ -198,7 +198,7 @@ footer {
         height: 70px;
     }
     td i {
-        color: #FDF5E6;
+        color: #F5FFFA;
         font-size: 1.2rem;
     }
     .place {
@@ -243,7 +243,7 @@ footer {
         height: 60px;
     }
     td i {
-        color: #FFFAFA;
+        color: #F5FFFA;
         font-size: 1rem;
     }
     .place {
@@ -355,7 +355,7 @@ footer {
   font-size: 54px;
   display: flex;
   justify-content: center;
-    background-color: #FFFAFA;
+    background-color: #F5FFFA;
   
 }
 .timer__item {
@@ -385,7 +385,7 @@ footer {
   right: -15px; 
 }
 .timer {
-  background-color: #FFFAFA;
+  background-color: #F5FFFA;
 }
 .left {
   font-size: 25px;
