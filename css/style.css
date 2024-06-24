@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+.wedding {
+    padding: 225px 0;
+    background-image: url(image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+span {
+    font-size: 2rem;
+}
+
+.number {
+    font-size: 3rem;
+}
+
+.arrow-2::before {
+    content: "";
+    display: block;
+    border-top: 0.7px solid #737373;
+    width: 110px;
+    margin: 10px auto 0px;
+}
+
+.arrow-2::after {
+    content: "";
+    display: block;
+    border-top: 0.7px solid #737373;
+    width: 110px;
+    margin: 5px auto 15px;
+}
+
+.arrow-1::before {
+    content: "";
+    display: block;
+    border-top: 0.7px solid #737373;
+    width: 180px;
+    margin: 0px auto 0px;
+}
+
+.arrow-1::after {
+    content: "";
+    display: block;
+    border-top: 0.7px solid #737373;
+    width: 180px;
+    margin: 5px auto 15px;
+}
+
+.friends {
+    font-size: 1.5rem;
+    padding: 80px 0;
+    background-color: #F3F7EA;
+}
+
+.friends p {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+table {
+    font-size: 2rem;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table {
+    background-color: #F3F7EA;
+}
+
+caption {
+    padding: 20px;
+    background-color: #486e5b;
+    color: #fff;
+    font-style: italic;
+}
+
+th,
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+}
+
+tr:last-child td:nth-last-child(-n+6) {
+    color: #c1c1c1;
+}
+
+tr:nth-child(2) td:nth-child(-n+5) {
+    color: #c1c1c1;
+}
+
+th,
+tr {
+    background-color: #f7f7f7;
+}
+
+.place {
+    padding: 80px;
+    font-size: 2rem;
+    background-color: #F3F7EA;
+}
+
+.place a {
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 30px;
+    display: block;
+    max-width: 500px;
+    height: 80px;
+    line-height: 70px;
+    margin: 30px auto 0;
+    border: 2px solid;
+    transition: background-color 0.5s;
+}
+
+img {
+    margin: 30px 0;
+    width: 100%;
+    max-width: 1000px;
+}
+
+td i {
+    color: #FE3447;
+    font-size: 1.5rem;
+}
+
+footer p {
+    padding: 30px 0;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+footer {
+    background-color: #F4D257;
+}
+
+.down {
+    position: fixed;
+    font-size: 1.75rem;
+    bottom: 30px;
+    right: 35px;
+    color: #F4D257;
+}
+
+@media screen and (max-width: 865px) {
+    .wedding {
+        padding: 100px 0;
+    }
+    h1 {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+    span {
+        font-size: 1.5rem;
+    }
+    .number {
+        font-size: 2rem;
+    }
+    .friends {
+        font-size: 1.2rem;
+        padding: 50px 0;
+    }
+    table {
+        font-size: 1.5rem;
+    }
+    caption {
+        padding: 20px;
+    }
+    th,
+    td {
+        width: 70px;
+        height: 70px;
+    }
+    td i {
+        color: #FE3447;
+        font-size: 1.2rem;
+    }
+    .place {
+        padding: 50px 0;
+        font-size: 1.4rem;
+    }
+    .place a {
+        font-size: 1.2rem;
+        max-width: 400px;
+    }
+    footer p {
+        padding: 20px 0;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .wedding {
+        padding: 60px 0;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    span {
+        font-size: 1rem;
+    }
+    .number {
+        font-size: 1.5rem;
+    }
+    .friends {
+        font-size: 1rem;
+    }
+    table {
+        font-size: 1.3rem;
+    }
+    caption {
+        padding: 15px;
+    }
+    th,
+    td {
+        width: 60px;
+        height: 60px;
+    }
+    td i {
+        color: #FE3447;
+        font-size: 1rem;
+    }
+    .place {
+        font-size: 1rem;
+    }
+    .place a {
+        font-size: 1rem;
+        max-width: 350px;
+        height: 70px;
+        line-height: 60px;
+    }
+    footer p {
+        padding: 20px 0;
+        font-size: 1.3rem;
+    }
+    .arrow-2::before {
+        content: "";
+        width: 80px;
+    }
+    .arrow-2::after {
+        content: "";
+        width: 80px;
+    }
+    .arrow-1::before {
+        content: "";
+        width: 110px;
+    }
+    .arrow-1::after {
+        content: "";
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .wedding {
+        padding: 60px 0;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    span {
+        font-size: 1rem;
+    }
+    .number {
+        font-size: 1.5rem;
+    }
+    .friends {
+        font-size: .8rem;
+    }
+    table {
+        font-size: 1rem;
+    }
+    caption {
+        padding: 15px;
+    }
+    th,
+    td {
+        width: 45px;
+        height: 45px;
+    }
+    td i {
+        font-size: .7rem;
+    }
+    .place {
+        font-size: .85rem;
+    }
+    .place a {
+        font-size: .8rem;
+        max-width: 250px;
+        height: 60px;
+        line-height: 50px;
+    }
+    footer p {
+        font-size: 1rem;
+    }
+    .arrow-2::before {
+        content: "";
+        width: 80px;
+        margin: 10px auto 0px;
+    }
+    .arrow-2::after {
+        content: "";
+        width: 80px;
+        margin: 0px auto 10px;
+    }
+    .arrow-1::before {
+        content: "";
+        width: 110px;
+        margin: 0px auto 0px;
+    }
+    .arrow-1::after {
+        content: "";
+        width: 110px;
+        margin: 5px auto 10px;
+    }
+}
