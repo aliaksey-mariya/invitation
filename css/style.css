@@ -52,6 +52,13 @@ p {
     font-family: 'Cormorant Infant';
 }
 
+.gradient {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, red, fuchsia);}
+}
+
 span {
     font-size: 2rem;
 }
