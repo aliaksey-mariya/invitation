@@ -25,7 +25,6 @@ h1 {
     margin-bottom: 15px;
     font-family: 'Cormorant Infant';
     letter-spacing: .3rem;
-    color: #696969;
 }
 
 h2 {
@@ -45,6 +44,7 @@ span {
 .number {
     font-size: 3rem;
     font-family: 'Cormorant Infant';
+    color: #696969;
 }
 
 .arrow-2::before {
