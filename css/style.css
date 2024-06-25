@@ -27,12 +27,13 @@ h1 {
     letter-spacing: .3rem;
 }
 
-h2 {
+.point {
     color: #696969;
     font-family: 'Cormorant Infant';
 }
 
 .textes {
+    font-size: 0.8rem;	
     color: #696969;
     font-family: 'Cormorant Infant';
 }
@@ -42,7 +43,7 @@ span {
 }
 
 .number {
-    font-size: 3rem;
+    font-size: 1rem;
     font-family: 'Cormorant Infant';
     color: #696969;
 }
