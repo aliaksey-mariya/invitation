@@ -27,12 +27,23 @@ h1 {
     letter-spacing: .3rem;
 }
 
+h2 {
+    color: #696969;
+    font-family: 'Cormorant Infant';
+}
+
+.textes {
+    color: #696969;
+    font-family: 'Cormorant Infant';
+}
+
 span {
     font-size: 2rem;
 }
 
 .number {
     font-size: 3rem;
+    font-family: 'Cormorant Infant';
 }
 
 .arrow-2::before {
