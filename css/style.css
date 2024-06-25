@@ -57,7 +57,7 @@ p {
     color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text;
-	background-image: linear-gradient(to right, red, fuchsia);}
+	background-image: linear-gradient(90deg, red, orange, fuchsia);
 }
 
 span {
