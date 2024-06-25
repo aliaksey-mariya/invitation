@@ -312,17 +312,19 @@ footer {
         content: "";
         width: 110px;
     }
-	.left {
+	
+.left {
   font-size: 20px;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   overflow: hidden;
 }
+	
 .right {
   display: inline-block;
   white-space: nowrap;
-  color: red;	
+  color: #FF0000;	
 }
 }
 
