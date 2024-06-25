@@ -24,6 +24,7 @@ h1 {
     font-size: 2.5rem;
     font-style: italic;
     margin-bottom: 15px;
+font-family: 'Cormorant Infant';
 }
 
 span {
@@ -175,6 +176,7 @@ footer {
     h1 {
         font-size: 1.8rem;
         margin-bottom: 15px;
+	font-family: 'Cormorant Infant';
     }
     span {
         font-size: 1.5rem;
@@ -221,6 +223,7 @@ footer {
     }
     h1 {
         font-size: 1.4rem;
+	font-family: 'Cormorant Infant';
     }
     span {
         font-size: 1rem;
@@ -294,6 +297,7 @@ footer {
     }
     h1 {
         font-size: 1.3rem;
+	font-family: 'Cormorant Infant';
     }
     span {
         font-size: 1rem;
