@@ -32,6 +32,11 @@ h2 {
     font-style: italic;
 }
 
+.cursive {
+    font-family: 'cursive';
+    font-style: italic;
+}
+
 p {
     font-family: 'Cormorant Infant';
 }
