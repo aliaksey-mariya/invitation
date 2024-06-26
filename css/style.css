@@ -18,7 +18,7 @@ body {
     background-image: url(image/banner.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-	animation: 5s show ease;
+  animation: 5s show ease;
 }
 
 @keyframes show {
@@ -227,50 +227,60 @@ footer {
 }
 
 @media screen and (max-width: 690px) {
-    .wedding {
-        padding: 60px 0;
-    }
-    h1 {
-        font-size: 1.4rem;
-	font-family: 'Cormorant Infant';
-    }
-    span {
-        font-size: 1rem;
-    }
-    .number {
-        font-size: 1.5rem;
-    }
-    .friends {
-        font-size: 1rem;
-    }
-    table {
-        font-size: 1.3rem;
-    }
-    caption {
-        padding: 15px;
-    }
-    th,
-    td {
-        width: 60px;
-        height: 60px;
-    }
-    td i {
-        color: #FFFFFF;
-        font-size: 1rem;
-    }
-    .place {
-        font-size: 1rem;
-    }
-    .place a {
-        font-size: 1rem;
-        max-width: 350px;
-        height: 70px;
-        line-height: 60px;
-    }
-    footer p {
-        padding: 20px 0;
-        font-size: 1.3rem;
-    }
+.wedding {
+  padding: 60px 0;
+}
+	
+h1 {
+  font-size: 1.4rem;
+  font-family: 'Cormorant Infant';
+}
+	
+span {
+  font-size: 1rem;
+}
+	
+.number {
+  font-size: 1.5rem;
+}
+	
+.friends {
+  font-size: 1rem;
+}
+	
+table {
+  font-size: 1.3rem;
+}
+	
+caption {
+  padding: 15px;
+}
+	
+th,td {
+  width: 60px;
+  height: 60px;
+}
+	
+td i {
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+	
+.place {
+  font-size: 1rem;
+}
+	
+.place a {
+  font-size: 1rem;
+  max-width: 350px;
+  height: 70px;
+  line-height: 60px;
+}
+	
+footer p {
+  padding: 20px 0;
+  font-size: 1.3rem;
+}
 	
 .left {
   font-size: 20px;
@@ -289,7 +299,7 @@ footer {
 @media screen and (max-width: 480px) {
 .wedding {
   padding: 60px 0;
-    }
+}
 	
 h1 {
   font-size: 1.3rem;
@@ -377,20 +387,6 @@ footer p {
 }
 
 .left {
-  font-size: 25px;
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.right {
-  display: inline-block;
-  white-space: nowrap;
-}
-
-@media only screen and (max-device-width: 480px) {
-.left {
   font-size: 10px;
   display: inline-block;
   overflow: hidden;
@@ -403,5 +399,4 @@ footer p {
 .right {
   display: inline-block;
   white-space: nowrap;
-}
 }
