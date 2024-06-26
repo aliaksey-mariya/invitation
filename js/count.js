@@ -1,13 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // конечная дата, например 1 июля 2021
   const deadline = new Date("2024-08-31 14:00:00");
-  // id таймера
   let timerId = null;
-  // склонение числительных
   function declensionNum(num, words) {
     return words[(num % 100 > 4 && num % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(num % 10 < 5) ? num % 10 : 5]];
   }
-  // вычисляем разницу дат и устанавливаем оставшееся времени в качестве содержимого элементов
   function countdownTimer() {
     const diff = deadline - new Date();
     if (diff <= 0) {
@@ -26,22 +22,15 @@ document.addEventListener('DOMContentLoaded', function() {
     $minutes.dataset.title = declensionNum(minutes, ['минута', 'минуты', 'минут']);
     $seconds.dataset.title = declensionNum(seconds, ['секунда', 'секунды', 'секунд']);
   }
-  // получаем элементы, содержащие компоненты даты
   const $days = document.querySelector('.timer__days');
   const $hours = document.querySelector('.timer__hours');
   const $minutes = document.querySelector('.timer__minutes');
   const $seconds = document.querySelector('.timer__seconds');
-  // вызываем функцию countdownTimer
   countdownTimer();
-  // вызываем функцию countdownTimer каждую секунду
   timerId = setInterval(countdownTimer, 1000);
 });
 
 function onLinkClick(event){
   event.preventDefault();
   document.getElementById('calendar').scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
- window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
 }
