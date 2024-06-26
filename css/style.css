@@ -41,6 +41,7 @@ h2 {
 p {
     font-family: 'Cormorant Infant';
 }
+
 .point {
     color: #696969;
     font-family: 'Cormorant Infant';
@@ -52,6 +53,10 @@ p {
     font-family: 'Cormorant Infant';
 }
 
+.textes2 {
+    color: #696969;
+    font-family: 'Cormorant Infant';
+}
 .gradient {
     color: transparent;    
 	-webkit-background-clip: text;
