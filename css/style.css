@@ -15,7 +15,7 @@ body {
 
 .wedding {
   padding: 225px 0;
-  background-image: url(image/banner.png);
+  background-image: url(image/banner.pg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   animation: 5s show ease;
