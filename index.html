@@ -117,7 +117,27 @@
                 <p>Место проведения:</p>
                 <p>Минская область, Дзержинский р-н, п. Перхурово, ул. Луговая, 25</p>
                 <p class="gradient">Вилла "Vice House"</p>
-		<div style="position:relative;overflow:hidden;"><iframe src="https://yandex.by/map-widget/v1/?ll=27.558926%2C53.893474&mode=whatshere&whatshere%5Bpoint%5D=27.199827%2C53.859924&whatshere%5Bzoom%5D=18.25&z=9.91" width="1600" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+		<div class="maps" id="map"></div>
+		<script src="https://api-maps.yandex.ru/2.1/?load=package.full&lang=ru" type="text/javascript"></script>
+		<script type="text/javascript">
+		ymaps.ready(init);
+		function init() {
+		var myMap = new ymaps.Map("map", {
+		center: [53.859918, 27.199875],
+		zoom: 10,
+		controls: [
+                'zoomControl', 
+                'routeButtonControl', 
+                'trafficControl', 
+                'typeSelector', 
+		]
+		});
+		var myPlacemark = new ymaps.Placemark([53.859918, 27.199875], {
+		balloonContent: 'Минская область, Дзержинский р-н <br> п. Перхурово, ул. Луговая, 25 <br> Вилла "Vice House"'
+		});
+		myMap.geoObjects.add(myPlacemark);
+		}
+		</script>
             </section>
         </main>
         <footer>
