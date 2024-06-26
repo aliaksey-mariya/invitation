@@ -29,8 +29,3 @@ document.addEventListener('DOMContentLoaded', function() {
   countdownTimer();
   timerId = setInterval(countdownTimer, 1000);
 });
-
-function onLinkClick(event){
-  event.preventDefault();
-  document.getElementById('calendar').scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
