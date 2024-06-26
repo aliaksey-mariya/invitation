@@ -36,7 +36,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // вызываем функцию countdownTimer каждую секунду
   timerId = setInterval(countdownTimer, 1000);
 });
+
 function onLinkClick(event){
   event.preventDefault();
   document.getElementById('calendar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+ window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
 }
