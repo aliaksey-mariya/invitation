@@ -76,38 +76,6 @@ span {
     color: #696969;
 }
 
-.arrow-2::before {
-    content: "";
-    display: block;
-    border-top: 0.7px solid #737373;
-    width: 110px;
-    margin: 10px auto 0px;
-}
-
-.arrow-2::after {
-    content: "";
-    display: block;
-    border-top: 0.7px solid #737373;
-    width: 110px;
-    margin: 5px auto 15px;
-}
-
-.arrow-1::before {
-    content: "";
-    display: block;
-    border-top: 0.7px solid #737373;
-    width: 180px;
-    margin: 0px auto 0px;
-}
-
-.arrow-1::after {
-    content: "";
-    display: block;
-    border-top: 0.7px solid #737373;
-    width: 180px;
-    margin: 5px auto 15px;
-}
-
 .friends {
     font-size: 1.5rem;
     padding: 80px 0;
@@ -311,23 +279,6 @@ footer {
   white-space: nowrap;
   overflow: hidden;
 }
-
-.arrow-2::before {
-  content: "";
-  width: 80px;
-}
-.arrow-2::after {
-  content: "";
-  width: 80px;
-}
-.arrow-1::before {
-  content: "";
-  width: 110px;
-}
-.arrow-1::after {
-  content: "";
-  width: 110px;
-}
 	
 .right {
   display: inline-block;
@@ -336,85 +287,75 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    .wedding {
-        padding: 60px 0;
+.wedding {
+  padding: 60px 0;
     }
-    h1 {
-        font-size: 1.3rem;
-	font-family: 'Cormorant Infant';
-    }
-    span {
-        font-size: 1rem;
-    }
-    .number {
-        font-size: 1.5rem;
-    }
-    .friends {
-        font-size: .8rem;
-    }
-    table {
-        font-size: 1rem;
-    }
-    caption {
-        padding: 15px;
-    }
-    th,
-    td {
-        width: 45px;
-        height: 45px;
-    }
-    td i {
-        font-size: .7rem;
-    }
-.place {
-        font-size: .85rem;
-    }
-.place a {
-        font-size: .8rem;
-        max-width: 250px;
-        height: 60px;
-        line-height: 50px;
-    }
-footer p {
-        font-size: 1rem;
-    }
-.arrow-2::before {
-        content: "";
-        width: 80px;
-        margin: 10px auto 0px;
-    }
-.arrow-2::after {
-        content: "";
-        width: 80px;
-        margin: 0px auto 10px;
-    }
-.arrow-1::before {
-        content: "";
-        width: 110px;
-        margin: 0px auto 0px;
-    }
-.arrow-1::after {
-        content: "";
-        width: 110px;
-        margin: 5px auto 10px;
-    }
+	
+h1 {
+  font-size: 1.3rem;
+  font-family: 'Cormorant Infant';
 }
+	
+span {
+  font-size: 1rem;
+}
+	
+.number {
+  font-size: 1.5rem;
+}
+    
+.friends {
+  font-size: .8rem;
+}
+	
+table {
+  font-size: 1rem;
+}
+	
+caption {
+  padding: 15px;
+}
+	
+th,td {
+  width: 45px;
+  height: 45px;
+}
+	
+td i {
+  font-size: .7rem;
+}
+	
+.place {
+  font-size: .85rem;
+}
+	
+.place a {
+  font-size: .8rem;
+  max-width: 250px;
+  height: 60px;
+  line-height: 50px;
+}
+	
+footer p {
+  font-size: 1rem;
+}
+}
+
 .timer__items {
   font-size: 54px;
   display: flex;
   justify-content: center;
-    background-color: #FFFFFF;
-  
+  background-color: #FFFFFF; 
 }
+
 .timer__item {
   position: relative;
   min-width: 60px;
   margin-left: 10px;
   margin-right: 10px;
   padding-bottom: 15px;
-
-
 }
+
 .timer__item::before {
   content: attr(data-title);
   display: block;
@@ -423,18 +364,18 @@ footer p {
   bottom: 0;
   transform: translateX(-50%);
   font-size: 14px;
-  
-  
 }
+
 .timer__item:not(:last-child)::after {
-	
   content: ':';
   position: absolute;
   right: -15px; 
 }
+
 .timer {
   background-color: #FFFFFF;
 }
+
 .left {
   font-size: 25px;
   display: inline-block;
@@ -442,10 +383,12 @@ footer p {
   white-space: nowrap;
   overflow: hidden;
 }
+
 .right {
   display: inline-block;
   white-space: nowrap;
 }
+
 @media only screen and (max-device-width: 480px) {
 .left {
   font-size: 10px;
@@ -456,6 +399,7 @@ footer p {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+	
 .right {
   display: inline-block;
   white-space: nowrap;
