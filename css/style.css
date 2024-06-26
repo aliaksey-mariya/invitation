@@ -14,10 +14,10 @@ body {
 }
 
 .wedding {
-    padding: 225px 0;
-    background-image: url(image/banner.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  padding: 225px 0;
+  background-image: url(image/banner.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   animation: 5s show ease;
 }
 
@@ -27,203 +27,212 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-    font-family: 'Cormorant Infant';
-    letter-spacing: .3rem;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-family: 'Cormorant Infant';
+  letter-spacing: .3rem;
 }
 
 h2 {
-    font-family: 'Cormorant Infant';
-    font-style: italic;
+  font-family: 'Cormorant Infant';
+  font-style: italic;
 }
 
 .cursive {
-    font-family: 'Cormorant Infant';
-    font-size: 35px;
-    font-weight: 700;
+  font-family: 'Cormorant Infant';
+  font-size: 35px;
+  font-weight: 700;
 }
 
 p {
-    font-family: 'Cormorant Infant';
+  font-family: 'Cormorant Infant';
 }
 
 .point {
-    color: #696969;
-    font-family: 'Cormorant Infant';
+  color: #696969;
+  font-family: 'Cormorant Infant';
 }
 
 .textes {
-    font-size: 0.8rem;	
-    color: #696969;
-    font-family: 'Cormorant Infant';
+  font-size: 0.8rem;	
+  color: #696969;
+  font-family: 'Cormorant Infant';
 }
 
 .gradient {
-    color: transparent;    
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: linear-gradient(90deg, red, orange, fuchsia);
+  color: transparent;    
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg, red, orange, fuchsia);
 }
 
 span {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .number {
-    font-size: 2rem;
-    font-family: 'Cormorant Infant';
-    color: #696969;
+  font-size: 2rem;
+  font-family: 'Cormorant Infant';
+  color: #696969;
 }
 
 .friends {
-    font-size: 1.5rem;
-    padding: 80px 0;
-    background-color: #FFFFFF;
+  font-size: 1.5rem;
+  padding: 80px 0;
+  background-color: #FFFFFF;
 }
 
 .friends p {
-    max-width: 1000px;
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 table {
-    font-size: 2rem;
-    margin: 0 auto;
-    border-collapse: collapse;
+  font-size: 2rem;
+  margin: 0 auto;
+  border-collapse: collapse;
 }
 
 .table {
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 caption {
-    padding: 20px;
-    background-color: #B22222;
-    color: #fff;
-    font-style: italic;
+  padding: 20px;
+  background-color: #B22222;
+  color: #fff;
+  font-style: italic;
 }
 
 th,
 td {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    border: 1px solid #e8e8e8;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid #e8e8e8;
 }
 
 tr:last-child td:nth-last-child(-n+1) {
-    color: #c1c1c1;
+  color: #c1c1c1;
 }
 
 tr:nth-child(2) td:nth-child(-n+3) {
-    color: #c1c1c1;
+  color: #c1c1c1;
 }
 
 th,
 tr {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 .place {
-    padding: 30px;
-    font-size: 2rem;
-    background-color: #FFFFFF;
+  padding: 30px;
+  font-size: 2rem;
+  background-color: #FFFFFF;
 }
 
 .place a {
-    color: black;
-    font-weight: 700;
-    font-size: 1.5rem;
-    text-decoration: none;
-    border-radius: 30px;
-    display: block;
-    max-width: 500px;
-    height: 80px;
-    line-height: 70px;
-    margin: 30px auto 0;
-    border: 2px solid;
-    transition: background-color 0.5s;
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 30px;
+  display: block;
+  max-width: 500px;
+  height: 80px;
+  line-height: 70px;
+  margin: 30px auto 0;
+  border: 2px solid;
+  transition: background-color 0.5s;
 }
 
 img {
-    margin: 30px 0;
-    width: 100%;
-    max-width: 1000px;
+  margin: 30px 0;
+  width: 100%;
+  max-width: 1000px;
 }
 
 td i {
-    color: #FFFFFF;
-    font-size: 1.5rem;
+  color: #FFFFFF;
+  font-size: 1.5rem;
 }
 
 footer p {
-    padding: 30px 0;
-    color: white;
-    font-weight: 700;
-    font-size: 2rem;
-    font-style: italic;
+  padding: 30px 0;
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  font-style: italic;
 }
 
 footer {
-    background-color: #B22222;
+  background-color: #B22222;
 }
 
 .down {
-    position: fixed;
-    font-size: 1.75rem;
-    bottom: 30px;
-    right: 35px;
-    color: #FA8072;
+  position: fixed;
+  font-size: 1.75rem;
+  bottom: 30px;
+  right: 35px;
+  color: #FA8072;
 }
 
 
 @media screen and (max-width: 865px) {
-    .wedding {
-        padding: 100px 0;
-    }
-    h1 {
-        font-size: 1.8rem;
-        margin-bottom: 15px;
-	font-family: 'Cormorant Infant';
-    }
-    span {
-        font-size: 1.5rem;
-    }
-    .number {
-        font-size: 2rem;
-    }
-    .friends {
-        font-size: 1.2rem;
-        padding: 50px 0;
-    }
-    table {
-        font-size: 1.5rem;
-    }
-    caption {
-        padding: 20px;
-    }
-    th,
-    td {
-        width: 70px;
-        height: 70px;
-    }
-    td i {
-        color: #FFFFFF;
-        font-size: 1.2rem;
-    }
-    .place {
-        padding: 25px 0;
-        font-size: 1.4rem;
-    }
-    .place a {
-        font-size: 1.2rem;
-        max-width: 400px;
-    }
-    footer p {
-        padding: 20px 0;
-        font-size: 1.5rem;
-    }
+.wedding {
+  padding: 100px 0;
+}
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-family: 'Cormorant Infant';
+}
+	
+span {
+  font-size: 1.5rem;
+}
+	
+.number {
+  font-size: 2rem;
+}
+	
+.friends {
+  font-size: 1.2rem;
+  padding: 50px 0;
+}
+	
+table {
+  font-size: 1.5rem;
+}
+	
+caption {
+  padding: 20px;
+}
+	
+th,td {
+  width: 70px;
+  height: 70px;
+}
+	
+td i {
+  color: #FFFFFF;
+  font-size: 1.2rem;
+}
+	
+.place {
+  padding: 25px 0;
+  font-size: 1.4rem;
+}
+	
+.place a {
+  font-size: 1.2rem;
+  max-width: 400px;
+}
+	
+footer p {
+  padding: 20px 0;
+  font-size: 1.5rem;
+}
 }
 
 @media screen and (max-width: 690px) {
