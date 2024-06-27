@@ -170,14 +170,8 @@ footer {
 @media screen and (max-width: 865px) {
 .wedding {
   padding: 100px 0;
-  background-repeat: no-repeat;
-  background-position: top center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  animation: 5s show ease;
 }
+	
 h1 {
   font-size: 1.8rem;
   margin-bottom: 15px;
@@ -276,7 +270,7 @@ footer p {
 }
 	
 .left {
-  font-size: 20px;
+  font-size: 18px;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
@@ -292,13 +286,6 @@ footer p {
 @media screen and (max-width: 480px) {
 .wedding {
   padding: 120px 0;
-  background-repeat: no-repeat;
-  background-position: top center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  animation: 5s show ease;
 }
 	
 .left {
