@@ -131,21 +131,6 @@ tr {
   background-color: #FFFFFF;
 }
 
-.place a {
-  color: black;
-  font-weight: 700;
-  font-size: 1.5rem;
-  text-decoration: none;
-  border-radius: 30px;
-  display: block;
-  max-width: 500px;
-  height: 80px;
-  line-height: 70px;
-  margin: 30px auto 0;
-  border: 2px solid;
-  transition: background-color 0.5s;
-}
-
 img {
   margin: 30px 0;
   width: 100%;
