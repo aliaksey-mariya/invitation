@@ -294,6 +294,15 @@ footer p {
   animation: 5s show ease;
 }
 	
+.left {
+  font-size: 8px;
+  display: inline-block;
+  max-width: 135px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}	
+	
 h1 {
   font-size: 1.3rem;
   font-family: 'Cormorant Infant';
@@ -334,15 +343,6 @@ td i {
 	
 footer p {
   font-size: 1rem;
-}
-.left {
-  font-size: 8px;
-  display: inline-block;
-  overflow: hidden;
-  max-width: 135px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 }
 
