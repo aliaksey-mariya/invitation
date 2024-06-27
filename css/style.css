@@ -17,8 +17,7 @@ body {
   padding: 280px 0;
   background-image: url(image/banner.png);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed; 
+  background-position: top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
