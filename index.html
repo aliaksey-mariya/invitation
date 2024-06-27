@@ -133,8 +133,9 @@
 		]
 		});
 		var myPlacemark = new ymaps.Placemark([53.859918, 27.199875], {
-			preset: 'islands#greenCircleDotIcon',
 		balloonContent: 'Минская область, Дзержинский р-н <br> п. Перхурово, ул. Луговая, 25 <br> Вилла "Vice House"'
+		}, {
+	        preset: 'islands#violetStretchyIcon'
 		});
 		myMap.geoObjects.add(myPlacemark);
 		}
