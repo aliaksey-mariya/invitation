@@ -170,6 +170,13 @@ footer {
 @media screen and (max-width: 865px) {
 .wedding {
   padding: 100px 0;
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  animation: 5s show ease;
 }
 h1 {
   font-size: 1.8rem;
