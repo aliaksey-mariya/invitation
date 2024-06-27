@@ -209,11 +209,6 @@ td i {
   font-size: 1.4rem;
 }
 	
-.place a {
-  font-size: 1.2rem;
-  max-width: 400px;
-}
-	
 footer p {
   padding: 20px 0;
   font-size: 1.5rem;
@@ -262,13 +257,6 @@ td i {
 	
 .place {
   font-size: 1rem;
-}
-	
-.place a {
-  font-size: 1rem;
-  max-width: 350px;
-  height: 70px;
-  line-height: 60px;
 }
 	
 footer p {
@@ -331,13 +319,6 @@ td i {
 	
 .place {
   font-size: .85rem;
-}
-	
-.place a {
-  font-size: .8rem;
-  max-width: 250px;
-  height: 60px;
-  line-height: 50px;
 }
 	
 footer p {
