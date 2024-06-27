@@ -282,7 +282,7 @@ footer p {
 }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (min-device-width : 480px)
 .wedding {
   padding: 60px 0;
 }
@@ -328,6 +328,15 @@ td i {
 footer p {
   font-size: 1rem;
 }
+.left {
+  font-size: 8px;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 135px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 }
 
 .timer__items {
@@ -366,7 +375,7 @@ footer p {
 }
 
 .left {
-  font-size: 15px;
+  font-size: 22px;
   display: inline-block;
   overflow: hidden;
   max-width: 135px;
