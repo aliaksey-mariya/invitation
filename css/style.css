@@ -325,6 +325,9 @@ td i {
 footer p {
   font-size: 1rem;
 }
+.left {
+  font-size: 10px;
+}
 }
 
 .timer__items {
