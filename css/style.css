@@ -17,7 +17,8 @@ body {
   padding: 280px 0;
   background-image: url(image/banner.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: top center;
   animation: 5s show ease;
 }
 
