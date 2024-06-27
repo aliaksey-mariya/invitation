@@ -18,10 +18,10 @@ body {
   background-image: url(image/banner.png);
   background-repeat: no-repeat;
   background-position: top center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   animation: 5s show ease;
 }
 
@@ -285,6 +285,14 @@ footer p {
 @media screen and (max-width: 480px) {
 .wedding {
   padding: 60px 0;
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  animation: 5s show ease;
+}
 }
 	
 h1 {
