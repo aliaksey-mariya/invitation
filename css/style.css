@@ -286,6 +286,12 @@ footer p {
 @media screen and (max-width: 480px) {
 .wedding {
   padding: 60px 0;
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 	
 .left {
