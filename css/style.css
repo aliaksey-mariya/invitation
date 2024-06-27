@@ -293,7 +293,10 @@ footer p {
   -o-background-size: cover;
   background-size: cover;
 }
-	
+
+	.right {
+		font-size: 2px;
+	}
 .left {
   font-size: 8px;
 }	
