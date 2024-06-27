@@ -15,7 +15,9 @@ body {
 
 .wedding {
   padding: 280px 0;
-  background-image: url(image/banner.png) no-repeat center center fixed;
+  background-image: url(image/banner.png);
+	  background-repeat: no-repeat;
+	position: fixed;
         background-size: cover;
   animation: 5s show ease;
 }
