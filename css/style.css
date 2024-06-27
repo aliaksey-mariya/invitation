@@ -18,7 +18,6 @@ body {
   background-image: url(image/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   animation: 5s show ease;
 }
 
