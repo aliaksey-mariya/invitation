@@ -17,7 +17,7 @@ body {
   padding: 225px 0;
   background-image: url(image/banner.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   animation: 5s show ease;
 }
 
