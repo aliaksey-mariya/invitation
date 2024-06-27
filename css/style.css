@@ -270,7 +270,7 @@ footer p {
 }
 	
 .left {
-  font-size: 8px;
+  font-size: 18px;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
@@ -377,7 +377,7 @@ footer p {
 }
 
 .left {
-  font-size: 22px;
+  font-size: 10px;
   display: inline-block;
   overflow: hidden;
   max-width: 135px;
